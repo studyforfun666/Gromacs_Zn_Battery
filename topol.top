@@ -1,0 +1,13 @@
+#include "amber03.ff/forcefield.itp"
+#include "OTF_GMX.itp"
+#include "amber03.ff/ions.itp"
+#include "opc3.itp"
+
+[ system ]
+mac in water
+
+[ molecules ]
+; compound  nmols
+ZN    100
+OTF   200
+SOL              2778
